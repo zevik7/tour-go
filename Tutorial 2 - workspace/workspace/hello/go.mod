@@ -2,4 +2,4 @@ module example.com/hello
 
 go 1.24.2
 
-require golang.org/x/example/hello v0.0.0-20250425154744-f8bc3a00c468 // indirect
+require golang.org/x/example/hello v0.0.0-20250915201037-7f05d217867b // indirect

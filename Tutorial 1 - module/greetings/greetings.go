@@ -16,9 +16,8 @@ func Hello(name string) (string, error) {
 	return message, nil
 }
 
-// Kinda overiding
 func Hellos(names []string) (map[string]string, error) {
-	// A map to assoicate names with messages
+	// A map to associate names with messages
 	messages := make(map[string]string)
 
 	for _, name := range names {
